@@ -15,4 +15,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World! Fix master"/>
+        android:text="Hello World!"
+        android:id="@+id/txtView"
+    />
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtView"
+            android:text="Button"
+    />
+
 </RelativeLayout>
